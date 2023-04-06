@@ -10,7 +10,7 @@ const start = async () => {
     await writeFile(
       './content/result-mind-grenade.txt',
       `THIS IS AWESOME : ${first} ${second}`,
-      { flag: 'a' }
+      {flag: 'a'}
     )
     console.log(first, second)
   } catch (error) {
