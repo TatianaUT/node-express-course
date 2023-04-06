@@ -15,11 +15,3 @@ const makeFile = async()=>{
 makeFile()
 
 console.log('I got here');
-
-// fs = require('fs').promises;
-
-// const makeFile = async()=>{
-//     try {
-
-//     }
-// }
