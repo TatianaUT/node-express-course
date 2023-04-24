@@ -5,7 +5,6 @@ app.get('/', (req, res) => {
     res.json(products)
 });
 
-
 app.listen(500, ()=> {
     console.log('Server is listening on port 5000...')
 });

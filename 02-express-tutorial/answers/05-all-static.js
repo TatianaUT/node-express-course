@@ -12,7 +12,6 @@ app.use(express.static('./public'));
 // SSP
 // })
 
-
 app.all('*', (req, res) => {
     res.status(400),send('resource not found')
 });
