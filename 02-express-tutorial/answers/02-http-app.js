@@ -1,7 +1,6 @@
 const http = require('http')
 const { readFileSync } = require('fs')
 
-// get all files
 const homePage = readFileSync('./navbar-app/index.html')
 const homeStyles = readFileSync('./navbar-app/styles.css')
 const homeImage = readFileSync('./navbar-app/logo.svg')
@@ -48,6 +47,7 @@ const server = http.createServer((req, res) => {
     res.end()
   }
 })
+
 
 server.listen(5000)
 
