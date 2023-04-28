@@ -1,0 +1,20 @@
+Question #1 Quickly explain how middleware is used in an Express application.
+
+A request handler with access to the application's request-response cycle is
+known as widdleware. It is a function that holds the request object, and the middleware 
+function. Middleware can also send the response to the server before the request.
+
+Question # 2 What does CRUD stand for?
+
+CREATE, READ, UPDATE, and DELETE
+CRUD is the acronym for CREATE, READ, UPDATE and DELETE. These
+terms describe the four essential operations for creating and 
+managing persistent data elements, mainly in relational and 
+NoSQL databases.
+
+Question #3 You are careful to store your sensitive information in a .env file.
+
+The .gitignore file in the 03-task-manager/starter directory contains lines for /node_modules 
+and .env which are files we don/t need on Github.
+
+
